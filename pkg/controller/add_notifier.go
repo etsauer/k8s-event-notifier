@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"github.com/redhat-cop/events-notifier/pkg/controller/notifier"
+	"github.com/redhat-cop/k8s-notify/pkg/controller/notifier"
 )
 
 func init() {

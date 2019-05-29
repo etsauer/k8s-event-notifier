@@ -5,7 +5,7 @@
 
 if ! whoami &>/dev/null; then
   if [ -w /etc/passwd ]; then
-    echo "${USER_NAME:-events-notifier}:x:$(id -u):$(id -g):${USER_NAME:-events-notifier} user:${HOME}:/sbin/nologin" >> /etc/passwd
+    echo "${USER_NAME:-k8s-notify}:x:$(id -u):$(id -g):${USER_NAME:-k8s-notify} user:${HOME}:/sbin/nologin" >> /etc/passwd
   fi
 fi
 

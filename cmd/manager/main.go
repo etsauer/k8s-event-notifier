@@ -7,8 +7,8 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/redhat-cop/events-notifier/pkg/apis"
-	"github.com/redhat-cop/events-notifier/pkg/controller"
+	"github.com/redhat-cop/k8s-notify/pkg/apis"
+	"github.com/redhat-cop/k8s-notify/pkg/controller"
 
 	"github.com/operator-framework/operator-sdk/pkg/k8sutil"
 	"github.com/operator-framework/operator-sdk/pkg/leader"
@@ -80,7 +80,7 @@ func main() {
 	ctx := context.TODO()
 
 	// Become the leader before proceeding
-	err = leader.Become(ctx, "events-notifier-lock")
+	err = leader.Become(ctx, "k8s-notify-lock")
 	if err != nil {
 		log.Error(err, "")
 		os.Exit(1)

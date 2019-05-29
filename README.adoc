@@ -10,7 +10,7 @@ A _notifier_ is an integration with a chat system. Here are the ones we support 
 * Slack
 * Google Hangouts Chat
 
-Don't see the provider you're looking for? link:https://github.com/etsauer/k8s-event-notifier/issues/new[Create a feature request] or contribute one yourself.
+Don't see the provider you're looking for? link:https://github.com/etsauer/k8s-notify/issues/new[Create a feature request] or contribute one yourself.
 
 == Quickstart
 
@@ -98,6 +98,6 @@ We got a message!
 
 == Contributing
 
-We welcome contributions from the community. Feel free to link:https://github.com/etsauer/k8s-event-notifier/issues/new[open issues] and link:https://github.com/etsauer/k8s-event-notifier/pulls/new[pull requests].
+We welcome contributions from the community. Feel free to link:https://github.com/etsauer/k8s-notify/issues/new[open issues] and link:https://github.com/etsauer/k8s-notify/pulls/new[pull requests].
 
 If you're planning to contribute, check out our link:/docs/dev_guide.adoc[developer guide].

@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	eventv1 "github.com/redhat-cop/events-notifier/pkg/apis/event/v1"
-	notifyv1 "github.com/redhat-cop/events-notifier/pkg/apis/notify/v1"
+	eventv1 "github.com/redhat-cop/k8s-notify/pkg/apis/event/v1"
+	notifyv1 "github.com/redhat-cop/k8s-notify/pkg/apis/notify/v1"
 	log "github.com/sirupsen/logrus"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"

@@ -1,7 +1,7 @@
 package apis
 
 import (
-	v1 "github.com/redhat-cop/events-notifier/pkg/apis/event/v1"
+	v1 "github.com/redhat-cop/k8s-notify/pkg/apis/event/v1"
 )
 
 func init() {

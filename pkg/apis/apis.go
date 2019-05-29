@@ -1,8 +1,8 @@
 package apis
 
 import (
-	eventv1 "github.com/redhat-cop/events-notifier/pkg/apis/event/v1"
-	notifyv1 "github.com/redhat-cop/events-notifier/pkg/apis/notify/v1"
+	eventv1 "github.com/redhat-cop/k8s-notify/pkg/apis/event/v1"
+	notifyv1 "github.com/redhat-cop/k8s-notify/pkg/apis/notify/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 )
 

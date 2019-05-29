@@ -1,11 +1,11 @@
 FROM centos:7
 
-ENV OPERATOR=/usr/local/bin/events-notifier \
+ENV OPERATOR=/usr/local/bin/k8s-notify \
     USER_UID=1001 \
-    USER_NAME=events-notifier
+    USER_NAME=k8s-notify
 
 # install operator binary
-COPY build/_output/bin/events-notifier ${OPERATOR}
+COPY build/_output/bin/k8s-notify ${OPERATOR}
 
 COPY build/bin /usr/local/bin
 RUN  /usr/local/bin/user_setup
