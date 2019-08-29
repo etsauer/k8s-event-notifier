@@ -2,7 +2,7 @@
 
 The following is an example showing how k8s-notify can be used to alert when a namespace has reached its quota.
 
-Before we begin, make sure that k8s-notify is running, [either locally or in your Kubernetes cluster](/README.md).
+Before we begin, make sure that k8s-notify is running, [either locally or in your Kubernetes cluster](/README.adoc).
 
 First, create a new namespace to represent the app namespace, and apply a quota.
 
